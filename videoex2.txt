@@ -1,0 +1,49 @@
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# named-checkzone redian.net db.192.168.131.rev [5Predian.net[C[5@192.168.131.rev[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K./p17ex2.sh 
+ERROR: NECESITA EL USER_NAME I EL HOSTNAME
+USERNAME = 
+HOSTNAME = 
+PORT = 
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u
+ERROR: Option -u requires an argument
+ERROR: NECESITA EL USER_NAME I EL HOSTNAME
+USERNAME = 
+HOSTNAME = 
+PORT = 
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u c[Kdbmaster
+ERROR: NECESITA EL USER_NAME I EL HOSTNAME
+USERNAME = dbmaster
+HOSTNAME = 
+PORT = 
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u dbmaster -h
+ERROR: Option -h requires an argument
+ERROR: NECESITA EL USER_NAME I EL HOSTNAME
+USERNAME = dbmaster
+HOSTNAME = 
+PORT = 
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u dbmaster -h localhost
+USERNAME = dbmaster
+HOSTNAME = localhost
+PORT = 
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u dbmaster -h localhost -p
+ERROR: Option -p requires an argument
+USERNAME = dbmaster
+HOSTNAME = localhost
+PORT = 
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u dbmaster -h localhost -p 100
+Usage: nomscript [-u usuari] [-h hostname] [-t]
+   -u   usuari de la base de dades (obligatori)
+   -h   hostname on es connectarà (obligatori
+   -p   port (no obligatori ja que per defecte és 3306, però si existeix ha de ser un numero superior a 1024 i inferior o igual a 65535)
+   -t   no es connecta,  només comprova connexió
+USERNAME = dbmaster
+HOSTNAME = localhost
+PORT = 3306
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u dbmaster -h localhost -p 10000
+USERNAME = dbmaster
+HOSTNAME = localhost
+PORT = 10000
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# ./p17ex2.sh -u dbmaster -h localhost -p 10000[K[K[K[K[K[K[Kt
+USERNAME = dbmaster
+HOSTNAME = localhost
+PORT = 
+]0;root@m16-VirtualBox: /home/m16/Descargasroot@m16-VirtualBox:/home/m16/Descargas# exit
